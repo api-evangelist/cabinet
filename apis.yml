@@ -1,8 +1,24 @@
 aid: cabinet
 name: Cabinet
-description: Cabinet is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cabinet is a calendar management and scheduling automation platform built for
+  executive assistants and the leaders they support. It brings group scheduling polls, copy-and-paste
+  availability, unique booking links, shadow holds, and a shared meeting log into one all-in-one
+  workspace, and integrates with Outlook and Google Calendar plus Zoom, Google Meet, and Microsoft
+  Teams. Trusted by over 2,000 companies, Cabinet is SOC 2 Type 2 compliant and continuously monitored
+  by Secureframe. It was founded by former executive assistant Julia Leibowitz and is backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/cabinet/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63742826733f4cb6cf4d79d5/673214ac3f3020e9ad753a63_website-og%20(1).jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Scheduling
+- Calendar
+- Executive Assistant
+- Productivity
+- Meetings
+- Booking
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/cabinet-trust-center.yml
+- type: Compliance
+  url: https://trust.joincabinet.com/
+- type: DomainSecurity
+  url: security/cabinet-domain-security.yml
 - type: Website
   url: https://joincabinet.com/
+- type: Pricing
+  url: https://joincabinet.com/pricing
+- type: Blog
+  url: https://joincabinet.com/blog
+- type: PrivacyPolicy
+  url: https://joincabinet.com/privacy-policy
+- type: SignUp
+  url: https://app.joincabinet.com/signup
+- type: GitHubOrganization
+  url: https://github.com/joincabinet
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
