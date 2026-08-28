@@ -7,6 +7,17 @@ description: Cabinet is a calendar management and scheduling automation platform
   Teams. Trusted by over 2,000 companies, Cabinet is SOC 2 Type 2 compliant and continuously monitored
   by Secureframe. It was founded by former executive assistant Julia Leibowitz and is backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/cabinet/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
